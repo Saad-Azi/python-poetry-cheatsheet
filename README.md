@@ -12,9 +12,6 @@ poetry init
 # manage folder and dependencies using poetry
 poetry new folder-name
 
-# Install dependencies specified in pyproject.toml
-poetry install
-
 # Configure virtual environment to be within the project directory
 poetry config virtualenvs.in-project true
 
@@ -44,9 +41,6 @@ poetry add package_name^version
 # Add a package with major updates
 poetry add package_name~version
 
-# Install dependencies without the project directory
-poetry install --no-root
-
 # View all installed packages
 poetry show
 
@@ -61,6 +55,12 @@ poetry update
 
 # Install the latest version of a package
 poetry add package-name@latest
+
+# Install dependencies specified in pyproject.toml
+poetry install
+
+# Install dependencies without the project directory
+poetry install --no-root
 
 # Dependency Groups
 # Define dependency groups in pyproject.toml
