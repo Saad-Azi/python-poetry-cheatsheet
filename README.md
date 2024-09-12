@@ -1,6 +1,6 @@
 # Python Poetry Guide
 
-## Setup
+## Setup & Usage
 
 ```bash
 # Install Poetry
@@ -81,7 +81,6 @@ poetry run script-name
 ## Updating Poetry
 # Update Poetry to the latest minor version
 poetry version minor
-
+```
 
 This file includes all the commands and configurations needed for working with Python Poetry, organized by category for clarity.
-```
