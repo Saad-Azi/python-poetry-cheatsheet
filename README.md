@@ -9,6 +9,9 @@ pip install poetry
 # Initialize Poetry in your project
 poetry init
 
+# manage folder and dependencies using poetry
+poetry new folder-name
+
 # Install dependencies specified in pyproject.toml
 poetry install
 
